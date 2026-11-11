@@ -3,7 +3,7 @@
 import 'package:bitaqwa/dashboard/basicdashboard_screen.dart';
 
 // TUGAS 2 - Kalkulator Zakat (belum dihubungkan)
-// import 'package:bitaqwa/zakat/zakat_screen.dart';
+import 'package:bitaqwa/zakat/zakat_screen.dart';
 
 // TUGAS 3 - Kajian Online (belum dihubungkan)
 // import 'package:bitaqwa/kajian_online/video_kajian_screen.dart';
@@ -53,8 +53,7 @@ class MyApp extends StatelessWidget {
         '/': (context) =>
             const BasicDashboardScreen(), // Halaman awal (Dashboard) - TUGAS 1
         // TUGAS 2 - Tambahkan route zakat di sini saat mengerjakan Tugas 2:
-        // 'zakat': (context) => const ZakatScreen(),
-
+        'zakat': (context) => const ZakatScreen(),
         // TUGAS 3 - Tambahkan route kajian di sini saat mengerjakan Tugas 3:
         // 'video-kajian': (context) => const VideoKajianScreen(),
 
