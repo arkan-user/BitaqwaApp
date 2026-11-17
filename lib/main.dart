@@ -6,13 +6,13 @@ import 'package:bitaqwa/dashboard/basicdashboard_screen.dart';
 import 'package:bitaqwa/zakat/zakat_screen.dart';
 
 // TUGAS 3 - Kajian Online (belum dihubungkan)
-// import 'package:bitaqwa/kajian_online/video_kajian_screen.dart';
+ import 'package:bitaqwa/kajian_online/video_kajian_screen.dart';
 
 // TUGAS 4 - Doa Harian (belum dihubungkan)
-// import 'package:bitaqwa/doa_harian/doa_screen.dart';
+import 'package:bitaqwa/doa_harian/doa_screen.dart';
 
 // TUGAS 5 - Jadwal Sholat (belum dihubungkan)
-// import 'package:bitaqwa/jadwal_sholat/jadwal_sholat_screen.dart';
+import 'package:bitaqwa/jadwal_sholat/jadwal_sholat_screen.dart';
 
 // Mengambil pustaka UI Material Flutter
 import 'package:flutter/material.dart';
@@ -55,13 +55,13 @@ class MyApp extends StatelessWidget {
         // TUGAS 2 - Tambahkan route zakat di sini saat mengerjakan Tugas 2:
         'zakat': (context) => const ZakatScreen(),
         // TUGAS 3 - Tambahkan route kajian di sini saat mengerjakan Tugas 3:
-        // 'video-kajian': (context) => const VideoKajianScreen(),
+        'video-kajian': (context) => const VideoKajianScreen(),
 
         // TUGAS 4 - Tambahkan route doa di sini saat mengerjakan Tugas 4:
-        // 'doa': (context) => const DoaScreen(),
+        'doa': (context) => const DoaScreen(),
 
         // TUGAS 5 - Tambahkan route jadwal sholat di sini saat mengerjakan Tugas 5:
-        // 'jadwal-sholat': (context) => const JadwalSholatScreen(),
+        'jadwal-sholat': (context) => const JadwalSholatScreen(),
       },
     );
   }
