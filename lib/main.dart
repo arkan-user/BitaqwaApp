@@ -14,7 +14,6 @@ import 'package:bitaqwa/doa_harian/doa_screen.dart';
 // TUGAS 5 - Jadwal Sholat (belum dihubungkan)
 import 'package:bitaqwa/jadwal_sholat/jadwal_sholat_screen.dart';
 
-// Mengambil pustaka UI Material Flutter
 import 'package:flutter/material.dart';
 // Mengambil modul untuk mengatur format tanggal lokal (Indonesia)
 import 'package:intl/date_symbol_data_local.dart';
